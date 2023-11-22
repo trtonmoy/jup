@@ -381,6 +381,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 767.98px) {
+  .d_none {
+    display: none;
+  }
   .container,
   .custom-container {
     max-width: 100%;
