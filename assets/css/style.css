@@ -3161,3 +3161,13 @@ label {
     padding: 40px 0;
   }
 }
+
+.faq-wrap .accordion-body p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.faq-wrap .accordion-item.active {
+  background: linear-gradient(to bottom, #ff68b5 5.6%, #117d6c 80.15%);
+  border: none;
+}
