@@ -83,6 +83,18 @@ body {
   font-style: normal;
   background-color: var(--tg-black);
 }
+
+/* bubbly bg style */
+#canvas1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+/* bubbly bg style */
+
 img,
 .img {
   max-width: 100%;
@@ -3174,4 +3186,8 @@ label {
 
 .document-form-wrap {
   margin: 50px 0;
+}
+
+.download-inner-wrap {
+  background-color: transparent;
 }
