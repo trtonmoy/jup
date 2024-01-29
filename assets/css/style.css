@@ -41,7 +41,7 @@
 :root {
   --tg-body-font-family: "Outfit", sans-serif;
   --tg-heading-font-family: "Plus Jakarta Sans", sans-serif;
-  --tg-primary-color: #44a08d;
+  --tg-primary-color: #ff68b5;
   --tg-secondary-color: #0f101e;
   --tg-body-font-color: #92939e;
   --tg-heading-font-color: #ffffff;
@@ -2863,8 +2863,8 @@ label {
   background: linear-gradient(
     0deg,
     var(--tg-primary-color) 0%,
-    var(--tg-green) 47.6%,
-    var(--tg-black) 65.23%
+    #47194eb1 47.6%,
+    #34013f 65.23%
   );
   z-index: -2;
   transform: rotate(180deg);
@@ -3083,7 +3083,7 @@ label {
   background: linear-gradient(
     0deg,
     #012641 0%,
-    #16a085 47.6%,
+    #9d4f77 47.6%,
     transparent 65.23%
   );
   z-index: -1;
@@ -3125,7 +3125,7 @@ label {
 .features-item-two {
   border-radius: 15px;
   background: var(--tg-secondary-color);
-  box-shadow: rgb(1 255 255 / 81%) 0px 4px 7px 0px !important;
+  box-shadow: #ff68b5 0px 4px 7px 0px !important;
   display: flex;
   align-items: center;
   padding: 30px 30px;
